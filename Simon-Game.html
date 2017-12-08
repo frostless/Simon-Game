@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Javascript,Simon Game">
+  <meta name="keywords" content="Javascript,Simon Game">
+  <meta name="author" content="Jason Zheng">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css.css">
+  <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src = "js.js"></script>
+</head>
+
+<body>
+  <div class = "circle" id="outer">
+    <div class="quarter top-left" id = "quarter0"></div>
+    <div class="quarter top-right" id = "quarter1"></div>
+    <div class="quarter bottom-left" id = "quarter2"></div>
+    <div class="quarter bottom-right" id = "quarter3"></div>
+    <div class = "circle" id = "inner">
+      <p id = "title">Simon<span>®</span></p>
+      
+      <div class = "console">
+        <div class = "parallel counter">
+          <div id = "counter"><span></span></div>
+        <p class = "consoletext">COUNT</p>
+        </div>
+        <div class = "parallel start">
+        <button id = "start" ></button>
+        <p class = "consoletext">START</p>
+        </div>
+         <div class = "parallel strict">
+         <div id = "indicator"></div>
+        <button id ="strict"></button>
+        <p class = "consoletext">STRICT</p>
+        </div>
+        
+  <div id = "switch"><span>OFF</span>
+    <label class="switch">
+    <input type="checkbox">
+    <span class="slider round"></span>
+    </label>
+        <span>ON</span>    
+  </div>
+        
+      </div>
+      
+    </div>
+    </div>
+</body>
+</html>
