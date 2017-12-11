@@ -205,6 +205,7 @@ $(document).ready(function () {
     //set certain time limit for user to play next button
     var setTimeOut = function () {
         if (timeOut) clearTimeout(timeOut); //??????????
+        if(!ifGameOn ) return;
         timeOut = setTimeout(function () {
             //timeout user not click on time
             playAudio(100, 500, true);
