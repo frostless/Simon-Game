@@ -1,209 +1,216 @@
-html,body{
-background-color:#b3b7ac;
+html, body {
+    background-color: #b3b7ac;
 }
 
-.circle{
-border-radius:50%;
+.circle {
+    border-radius: 50%;
 }
 
 #outer {
-width: 500px;
-height: 500px;
-position:relative;
-background-color: black;
-border: 25px solid black;
-z-index:1;
-margin:10% auto;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-color: black;
+    border: 25px solid black;
+    z-index: 1;
+    margin: 10% auto;
 }
 
 #inner {
-  position:absolute;
-  width: 220px;
-  height: 220px;
-  background: white;
-  border: 20px solid black;
-  top:120px;
-  left:120px;
-  z-index:3;
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    background: white;
+    border: 20px solid black;
+    top: 120px;
+    left: 120px;
+    z-index: 3;
 }
 
 .quarter {
-width: 240px;
-height: 240px;
-margin-bottom:20px;
+    width: 240px;
+    height: 240px;
+    margin-bottom: 20px;
 }
 
 .top-left {
-border-top-left-radius: 500px;
-background-color: #008000;
-float: left;
+    border-top-left-radius: 500px;
+    background-color: #008000;
+    float: left;
 }
 
 .top-right {
-border-top-right-radius: 500px;
-background-color: #1ba8e0;
-float: right;
+    border-top-right-radius: 500px;
+    background-color: #1ba8e0;
+    float: right;
 }
 
 .bottom-left {
-border-bottom-left-radius: 500px;
-background-color: #fecc0b;
-float: left;
+    border-bottom-left-radius: 500px;
+    background-color: #fecc0b;
+    float: left;
 }
 
 .bottom-right {
-border-bottom-right-radius: 500px;
-background-color: #de232c;
-float: right;
+    border-bottom-right-radius: 500px;
+    background-color: #de232c;
+    float: right;
 }
 
-#title{
-position:relative;
-width:80%;
-font-size:60px;
-top:-10%;
-left:13%;
+#title {
+    position: relative;
+    width: 80%;
+    font-size: 60px;
+    top: -10%;
+    left: 13%;
 }
 
-#title span{
-font-size:20px;
-vertical-align:90%;
+#title span {
+    font-size: 20px;
+    vertical-align: 90%;
 }
 
-#counter{
-width:70px;
-height:40px;
-border-radius:10px;
-background-color:black;
-color:red;
-text-align:center;
+#counter {
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: red;
+    text-align: center;
 }
 
-#counter span{
-font-size:25px;
-display:block;
-position:relative;
-top:11%;
+#counter span {
+    font-size: 25px;
+    display: block;
+    position: relative;
+    top: 11%;
 }
+
 .console {
-width:80%;
-position:relative;
-top:-35%;
-left:25px;
+    width: 80%;
+    position: relative;
+    top: -35%;
+    left: 25px;
 }
 
-#indicator{
-width:8px;
-height:8px;
-background-color:black;
-display: block; 
-position:relative;
-top:-8px;
-border: 2px solid black;
-border-radius:50%;
-margin:auto;
+#indicator {
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    display: block;
+    position: relative;
+    top: -8px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: auto;
 }
 
-.parallel{
-display:inline-block;
-margin-right:15px;
+.parallel {
+    display: inline-block;
+    margin-right: 15px;
 }
 
-.consoletext{
-font-size:8px;
-text-align:center;
+.consoletext {
+    font-size: 8px;
+    text-align: center;
 }
 
-#start,#strict{
-width:25px;
-height:25px;
-cursor:pointer;
-border-radius:50%;
-border:3px solid black;
-display: block; 
-margin:auto;
-outline: none; 
-position:relative;
-top:-5px;
+#start, #strict {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 3px solid black;
+    display: block;
+    margin: auto;
+    outline: none;
+    position: relative;
+    top: -5px;
 }
 
 button:active {
-transform: translateY(0.7px);
+    transform: translateY(0.7px);
 }
 
-#start{
-background-color:red;
+#start {
+    background-color: red;
 }
 
-#strict{
-background-color:yellow;
+#strict {
+    background-color: yellow;
 }
 
-#switch{
-position:relative;
-padding-left:24%;
+#switch {
+    position: relative;
+    padding-left: 24%;
 }
 
-#switch span{
-font-size:8px;
-vertical-align:90%;
+#switch span {
+    font-size: 8px;
+    vertical-align: 90%;
 }
 
 /* The switch - the box around the slider */
+
 .switch {
-position: relative;
-display: inline-block;
-width: 50px;
-height: 24px;
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
 }
 
 /* Hide default HTML checkbox */
-.switch input {display:none;}
+
+.switch input {
+    display: none;
+}
 
 /* The slider */
+
 .slider {
-position: absolute;
-cursor: pointer;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-background-color: #ccc;
--webkit-transition: .4s;
-transition: .4s;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
 .slider:before {
-position: absolute;
-content: "";
-height: 20px;
-width: 20px;
-left: 4px;
-bottom: 2px;
-background-color: white;
--webkit-transition: .4s;
-transition: .4s;
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
-input:checked + .slider {
-background-color: #2196F3;
+input:checked+.slider {
+    background-color: #2196F3;
 }
 
-input:focus + .slider {
-box-shadow: 0 0 1px #2196F3;
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
 }
 
-input:checked + .slider:before {
--webkit-transform: translateX(22px);
--ms-transform: translateX(22px);
-transform: translateX(22px);
+input:checked+.slider:before {
+    -webkit-transform: translateX(22px);
+    -ms-transform: translateX(22px);
+    transform: translateX(22px);
 }
 
 /* Rounded sliders */
+
 .slider.round {
-border-radius: 24px;
+    border-radius: 24px;
 }
 
 .slider.round:before {
-border-radius: 50%;
-} 
+    border-radius: 50%;
+}
