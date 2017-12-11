@@ -36,29 +36,30 @@ html,body{
 .top-left {
   border-top-left-radius: 500px;
   background-color: #008000;
-  float: left
+  float: left;
 }
 
 .top-right {
   border-top-right-radius: 500px;
   background-color: #1ba8e0;
-  float: right
+  float: right;
 }
 
 .bottom-left {
   border-bottom-left-radius: 500px;
   background-color: #fecc0b;
-  float: left
+  float: left;
 }
 
 .bottom-right {
   border-bottom-right-radius: 500px;
   background-color: #de232c;
-  float: right
+  float: right;
 }
 
 #title{
   position:relative;
+  width:80%;
   font-size:60px;
   top:-10%;
   left:13%;
@@ -85,6 +86,7 @@ html,body{
   top:11%;
 }
 .console {
+  width:80%;
   position:relative;
   top:-35%;
   left:25px;
@@ -139,7 +141,7 @@ button:active {
 
 #switch{
   position:relative;
-  left:45px;
+  padding-left:24%;
 }
 
 #switch span{
