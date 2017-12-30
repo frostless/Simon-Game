@@ -87,7 +87,9 @@ html, body {
 }
 
 .console {
-    width: 80%;
+    width: 81.5%; /*  width less than width:81.5%
+  not rendered well in mobile browser
+  */
     position: relative;
     top: -35%;
     left: 25px;
